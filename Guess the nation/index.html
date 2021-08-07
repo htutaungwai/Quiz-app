@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App (Remastered)</title>
+</head>
+<body>
+    <div class="result-container">
+        <div class="result">
+        <div class="upper-result"><span class="grade">grade</span></div>
+        <div class="lower-result">
+            <div class="heart-container">
+                <div class="hearts">
+                </div>
+            </div>
+            Great! Your score is: 
+            <span class="score">0</span>
+            <button class="close">Menu</button>
+        </div>
+        </div>
+    </div>
+    <div class="main-container">
+    
+    <div class="header">Guess The Nation</div>
+    <div class="container">
+        <div class="diff-container hide">
+            <div class="diff">
+            <button id="return">x</button>
+            <span>Choose Difficulty</span>
+            <button class="easy diff-btn">Easy</button>
+            <button class="normal diff-btn">normal</button>
+            <button class="hard diff-btn">hard</button>
+            <button class="extreme diff-btn">extreme</button>
+            </div>
+        </div>
+        <div class="question-container hide">
+            <div class="question-img"><img src="" id="image" alt=""></div>
+            <div class="hint-container"><span class="hint">Hint:</span> <span id="hint">lsajdfoasdjfasjdf;asdjf</span></div>
+            <div class="answer-buttons button-grip">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn"> Answer 3</button>
+                <button class="btn"> Answer4</button>
+            </div>
+        </div>
+        <div class="menu">
+            <button class="control-btn" id="start">START</button>
+            <button class="start-btn control-btn">ABOUT</button>
+        </div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
